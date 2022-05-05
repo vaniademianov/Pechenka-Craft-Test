@@ -1,0 +1,1054 @@
+[15:44:10] [main/INFO] [STDOUT/]: Update in check...
+[15:44:10] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[15:44:11] [main/INFO] [STDOUT/]: The latest Mohist version is 1.16.5-976 but you have 1.16.5-966. The latest version has been built on 2022-04-30 13:17:28. You should update to fix recent bugs !
+[15:44:11] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 966, --fml.forgeVersion, 36.2.33, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, launchedWithJava16+]
+[15:44:11] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 16.0.1 by Oracle Corporation
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,capability_inject_definalize,accesstransformer,runtimedistcleaner]
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 36.2
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 36.2 loading
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 8.1.3+8.1.3+main-8.1.x.c94d18ec
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 3.0.1+61+master.47bca0e
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 4.0.0+65+master.6080a3f
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 4.0.6+14+master.c21a551
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.2.0+13+master.8ddb2cc
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[15:44:11] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[15:44:11] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[15:44:11] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55
+[15:44:11] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/User/Desktop/Pechenka%20Craft%20Test/spawn/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[15:44:11] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[15:44:11] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[15:44:11] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[15:44:11] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[15:44:11] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[15:44:11] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[15:44:11] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\Users\User\Desktop\Pechenka Craft Test\spawn
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\User\Desktop\Pechenka Craft Test\spawn
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\Users\User\Desktop\Pechenka Craft Test\spawn\mods
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\User\Desktop\Pechenka Craft Test\spawn\mods
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\Users\User\Desktop\Pechenka Craft Test\spawn\config
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\User\Desktop\Pechenka Craft Test\spawn\config
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\User\Desktop\Pechenka Craft Test\spawn\config\fml.toml
+[15:44:11] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\Users\User\Desktop\Pechenka Craft Test\spawn\defaultconfigs
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.16.5' MCP Version: '20210115.111550' Forge Version: '966' Forge group: 'com.mohistmc'
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\org\ow2\asm\asm\9.1\asm-9.1.jar
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar is present
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-srg.jar is present
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\net\minecraft\server\1.16.5-20210115.111550\server-1.16.5-20210115.111550-extra.jar is present
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar is present
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/C:/Users/User/Desktop/Pechenka%20Craft%20Test/spawn/libraries/com/mohistmc/mohist/1.16.5-966/mohist-1.16.5-966-universal.jar to languageloader classloader
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 36.2
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mohist-1.16.5-966-universal.jar with {forge} mods - versions {36.2.33}
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar with language javafml
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mohist-1.16.5-966-server.jar with {minecraft} mods - versions {1.16.5}
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar with language minecraft
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[15:44:12] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[15:44:12] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[15:44:12] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[15:44:12] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[15:44:12] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@59bbe88a to Target : METHOD {Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;} {func_175156_o} {()F}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@cda6019 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228396_a_} {(FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer$Impl;Lnet/minecraft/client/entity/player/ClientPlayerEntity;I)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@797c3c3b to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/SkeletonModel;} {func_212843_a_} {(Lnet/minecraft/entity/MobEntity;FFF)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4012d5bc to Target : METHOD {Lnet/minecraft/client/renderer/entity/model/SkeletonModel;} {func_225597_a_} {(Lnet/minecraft/entity/MobEntity;FFFFF)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4375b013 to Target : METHOD {Lnet/minecraft/entity/monster/AbstractSkeletonEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1cf0cacc to Target : METHOD {Lnet/minecraft/entity/monster/AbstractSkeletonEntity;} {func_85036_m} {()V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4f5b08d to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228396_a_} {(FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer$Impl;Lnet/minecraft/client/entity/player/ClientPlayerEntity;I)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@529c2a9a to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228405_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLnet/minecraft/util/Hand;FLnet/minecraft/item/ItemStack;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3c87fdf2 to Target : METHOD {Lnet/minecraft/client/renderer/entity/PlayerRenderer;} {func_241741_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/client/renderer/entity/model/BipedModel$ArmPose;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@26bbe604 to Target : METHOD {Lnet/minecraft/entity/monster/PillagerEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@fe34b86 to Target : METHOD {Lnet/minecraft/entity/monster/PillagerEntity;} {func_241844_w} {(F)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3c98781a to Target : METHOD {Lnet/minecraft/entity/monster/piglin/PiglinEntity;} {func_208003_a} {(Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3f736a16 to Target : METHOD {Lnet/minecraft/entity/monster/piglin/PiglinEntity;} {func_230280_a_} {(Lnet/minecraft/item/ShootableItem;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4601203a to Target : METHOD {Lnet/minecraft/item/CrossbowItem;} {func_220013_l} {(Lnet/minecraft/item/ItemStack;)F}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@53abfc07 to Target : METHOD {Lnet/minecraft/item/Item;} {func_219970_i} {(Lnet/minecraft/item/ItemStack;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@2c8c16c0 to Target : METHOD {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {func_228405_a_} {(Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;FFLnet/minecraft/util/Hand;FLnet/minecraft/item/ItemStack;FLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@80bfa9d to Target : METHOD {Lnet/minecraft/entity/item/ItemFrameEntity;} {func_110131_b} {(Lnet/minecraft/item/ItemStack;)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@47c40b56 to Target : METHOD {Lnet/minecraft/inventory/container/CartographyContainer$3;} {func_75214_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4b039c6d to Target : METHOD {Lnet/minecraft/inventory/container/CartographyContainer;} {func_82846_b} {(Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@7f5b9db to Target : METHOD {Lnet/minecraft/item/ItemStack;} {func_82840_a} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/util/ITooltipFlag;)Ljava/util/List;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@507d64aa to Target : METHOD {Lnet/minecraft/client/renderer/entity/FishRenderer;} {func_225623_a_} {(Lnet/minecraft/entity/projectile/FishingBobberEntity;FFLcom/mojang/blaze3d/matrix/MatrixStack;Lnet/minecraft/client/renderer/IRenderTypeBuffer;I)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@37045b48 to Target : METHOD {Lnet/minecraft/entity/projectile/FishingBobberEntity;} {func_234600_a_} {(Lnet/minecraft/entity/player/PlayerEntity;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@60b34931 to Target : METHOD {Lnet/minecraft/block/BeehiveBlock;} {func_225533_a_} {(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@4aa21f9d to Target : METHOD {Lnet/minecraft/block/PumpkinBlock;} {func_225533_a_} {(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@71c17a57 to Target : METHOD {Lnet/minecraft/block/TripWireBlock;} {func_176208_a} {(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;)V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@640ab13c to Target : METHOD {Lnet/minecraft/enchantment/EfficiencyEnchantment;} {func_92089_a} {(Lnet/minecraft/item/ItemStack;)Z}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@1e0a864d to Target : METHOD {Lnet/minecraft/entity/passive/MooshroomEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@440e3ce6 to Target : METHOD {Lnet/minecraft/entity/passive/SheepEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@3e67f5f2 to Target : METHOD {Lnet/minecraft/entity/passive/SnowGolemEntity;} {func_230254_b_} {(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4527f70a to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@707b1a44 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7132a9dc to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@57435801 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2da66a44 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@527fc8e to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@61bfc9bf to Target : CLASS {Lnet/minecraft/item/ItemStack;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2c7106d9 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[15:44:12] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[15:44:12] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[15:44:12] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[15:44:12] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(mohist-1.16.5-966-server.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar)
+[15:44:12] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(mohist-1.16.5-966-server.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar)
+[15:44:12] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(mohist-1.16.5-966-server.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar)
+[15:44:12] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(mohist-1.16.5-966-server.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar)
+[15:44:12] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(mohist-1.16.5-966-server.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar)
+[15:44:12] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(mohist-1.16.5-966-server.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar)]
+[15:44:12] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(mohist-1.16.5-966-universal.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar)
+[15:44:12] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(mohist-1.16.5-966-universal.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar)
+[15:44:12] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(mohist-1.16.5-966-universal.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar)
+[15:44:12] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(mohist-1.16.5-966-universal.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar)
+[15:44:12] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(mohist-1.16.5-966-universal.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar)
+[15:44:12] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(mohist-1.16.5-966-universal.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar)]
+[15:44:12] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[15:44:12] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[15:44:12] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(mohist-1.16.5-966-server.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-server.jar)]
+[15:44:12] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(mohist-1.16.5-966-universal.jar:C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar)]
+[15:44:12] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., launchedWithJava16+]
+[15:44:12] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[15:44:12] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[15:44:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_219970_i with desc (Lnet/minecraft/item/ItemStack;)Z
+[15:44:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[15:44:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[15:44:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_225533_a_ with desc (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;
+[15:44:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_176208_a with desc (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;)V
+[15:44:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[15:44:13] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_225533_a_ with desc (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/math/BlockRayTraceResult;)Lnet/minecraft/util/ActionResultType;
+[15:44:14] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[15:44:14] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82846_b with desc (Lnet/minecraft/entity/player/PlayerEntity;I)Lnet/minecraft/item/ItemStack;
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82840_a with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/util/ITooltipFlag;)Ljava/util/List;
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/ItemStack
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_110131_b with desc (Lnet/minecraft/item/ItemStack;)V
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_208003_a with desc (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_241844_w with desc (F)V
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230254_b_ with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/ActionResultType;
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_85036_m with desc ()V
+[15:44:15] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[15:44:16] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_92089_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[15:44:16] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[15:44:16] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[15:44:16] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_220013_l with desc (Lnet/minecraft/item/ItemStack;)F
+[15:44:16] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[15:44:16] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_234600_a_ with desc (Lnet/minecraft/entity/player/PlayerEntity;)Z
+[15:44:16] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_75214_a with desc (Lnet/minecraft/item/ItemStack;)Z
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4980
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 6 threads for parallel mod-loading
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1886991b
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@1886991b
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@1886991b - got cpw.mods.modlauncher.TransformingClassLoader@1886991b
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@1886991b & cpw.mods.modlauncher.TransformingClassLoader@1886991b
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@1886991b
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 36.2 from cpw.mods.modlauncher.TransformingClassLoader@1886991b
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 36.2.33
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 36.2
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group com.mohistmc
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.16.5
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20210115.111550
+[15:44:17] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.33, for MC 1.16.5 with MCP 20210115.111550
+[15:44:17] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.33 Initialized
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[15:44:17] [modloading-worker-2/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completing Automatic event subscribers for forge
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\Users\User\Desktop\Pechenka Craft Test\spawn\config\forge-common.toml
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\Users\User\Desktop\Pechenka Craft Test\spawn\config\forge-common.toml
+[15:44:17] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\Users\User\Desktop\Pechenka Craft Test\spawn\config\forge-common.toml for changes
+[15:44:17] [main/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge
+[15:44:17] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge
+[15:44:19] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Populated the TagCollectionManager with 3 extra types
+[15:44:21] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:44:21] [main/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\User\Desktop\Pechenka Craft Test\spawn\libraries\com\mohistmc\mohist\1.16.5-966\mohist-1.16.5-966-universal.jar
+[15:44:21] [main/DEBUG] [net.minecraftforge.common.ForgeTagHandler/]: Gathering custom tag collection reader from types.
+[15:44:21] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, mohist-1.16.5-966-universal.jar, multiworld
+[15:44:23] [Worker-Main-7/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 recipes
+[15:44:24] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[15:44:24] [main/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[15:44:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[15:44:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[15:44:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[15:44:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15:44:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25 588
+[15:44:25] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[15:44:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:44:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[15:44:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:44:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:44:27] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-966 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.33)
+[15:44:27] [Server thread/DEBUG] [com.mohistmc.MohistMC/]: Registered forge Attribute as Attribute(Bukkit) SWIM_SPEED
+[15:44:27] [Server thread/DEBUG] [com.mohistmc.MohistMC/]: Registered forge Attribute as Attribute(Bukkit) NAMETAG_DISTANCE
+[15:44:27] [Server thread/DEBUG] [com.mohistmc.MohistMC/]: Registered forge Attribute as Attribute(Bukkit) ENTITY_GRAVITY
+[15:44:27] [Server thread/DEBUG] [com.mohistmc.MohistMC/]: Registered forge Attribute as Attribute(Bukkit) REACH_DISTANCE
+[15:44:27] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[15:44:27] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[15:44:27] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[15:44:28] [Server thread/DEBUG] [com.mohistmc.MohistMC/]: Could not initialize LibraryLoader (missing dependencies?)
+[15:44:28] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins\hubconnector_4_4_2e.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:169) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:386) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[15:44:29] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins\matrix-rus-2.0.5.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ProtocolLib. Please download and install ProtocolLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:268) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:386) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[15:44:29] [Server thread/WARN] [/]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:44:33] [Server thread/WARN] [Minecraft/]: Legacy plugin NametagEdit v4.4.10 does not specify an api-version.
+[15:44:33] [Server thread/WARN] [Minecraft/]: Legacy plugin MultiWorld v5.2.8 does not specify an api-version.
+[15:44:33] [Server thread/WARN] [Minecraft/]: Legacy plugin AmazingKit v1.1 does not specify an api-version.
+[15:44:33] [Server thread/WARN] [Minecraft/]: Legacy plugin Burn v1.0 does not specify an api-version.
+[15:44:33] [Server thread/WARN] [Minecraft/]: Legacy plugin ServerListPlus v3.4.8 does not specify an api-version.
+[15:44:34] [Server thread/WARN] [Minecraft/]: Legacy plugin ScoreboardStats v0.10.6 does not specify an api-version.
+[15:44:35] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] MC Version: 1.16.4
+[15:44:35] [Server thread/WARN] [Minecraft/]: Legacy plugin ChatEx v2.8.1 does not specify an api-version.
+[15:44:35] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading LuckPerms v5.4.21
+[15:44:36] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Loading CustomEnderChest v1.13.1
+[15:44:36] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[15:44:36] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Loading NametagEdit v4.4.10
+[15:44:36] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Loading HolographicDisplays v2.4.9
+[15:44:36] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Loading MultiWorld v5.2.8
+[15:44:36] [Server thread/INFO] [net.skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Loading SkinsRestorer v14.1.15
+[15:44:36] [Server thread/INFO] [ru.akke.akit.AmazingKit/]: [AmazingKit] Loading AmazingKit v1.1
+[15:44:36] [Server thread/INFO] [com.TheAJ471.burn.Main/]: [Burn] Loading Burn v1.0
+[15:44:36] [Server thread/INFO] [com.xxmicloxx.NoteBlockAPI.NoteBlockAPI/]: [NoteBlockAPI] Loading NoteBlockAPI v1.6.1-SNAPSHOT
+[15:44:36] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[15:44:36] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Loading Vault v1.7.3-b131
+[15:44:36] [Server thread/INFO] [plus.crates.CratesPlus/]: [CratesPlus] Loading CratesPlus v4.5.3
+[15:44:36] [Server thread/INFO] [me.gmusic.main.GMusicMain/]: [GMusic] Loading GMusic v[2.6.1.0]
+[15:44:36] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[15:44:38] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@f95698d]
+[15:44:38] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials v2.18.0.0
+[15:44:38] [Server thread/INFO] [me.jet315.prisonmines.JetsPrisonMines/]: [JetsPrisonMines] Loading JetsPrisonMines v4.1.1
+[15:44:38] [Server thread/INFO] [com.github.games647.scoreboardstats.ScoreboardStats/]: [ScoreboardStats] Loading ScoreboardStats v0.10.6
+[15:44:38] [Server thread/INFO] [com.janboerman.invsee.spigot.InvseePlusPlus/]: [InvSee++] Loading InvSeePlusPlus v0.11.8-SNAPSHOT
+[15:44:38] [Server thread/INFO] [otd.Main/]: [Oh_the_dungeons_youll_go] Loading Oh_the_dungeons_youll_go v14.2
+[15:44:38] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[15:44:38] [Server thread/INFO] [net.citizensnpcs.Citizens/]: [Citizens] Loading Citizens v2.0.29-SNAPSHOT (build 2534)
+[15:44:38] [Server thread/INFO] [me.deejayarroba.craftheads.Main/]: [CraftHeads] Loading CraftHeads v4.4.1
+[15:44:38] [Server thread/INFO] [theBartender.Main/]: [theBartender] Loading theBartender v1.2
+[15:44:38] [Server thread/INFO] [me.filoghost.chestcommands.ChestCommands/]: [ChestCommands] Loading ChestCommands v4.0.3
+[15:44:38] [Server thread/INFO] [me.badbones69.crazyauctions.Main/]: [CrazyAuctions] Loading CrazyAuctions v1.2.16-RELEASE
+[15:44:38] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Loading EssentialsChat v2.18.0.0
+[15:44:38] [Server thread/INFO] [dev.geco.gsit.GSitMain/]: [GSit] Loading GSit v1.0.7
+[15:44:38] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Loading ChatEx v2.8.1
+[15:44:38] [Server thread/INFO] [me.SuperRonanCraft.BetterRTP.BetterRTP/]: [BetterRTP] Loading BetterRTP v3.4.2-2
+[15:44:38] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] Loading ProtectionStones v2.8.5
+[15:44:38] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.0.0
+[15:44:38] [Server thread/INFO] [io.puharesource.mc.titlemanager.TitleManagerPlugin/]: [TitleManager] Loading TitleManager v2.3.6
+[15:44:38] [Server thread/INFO] [net.mcjukebox.plugin.bukkit.MCJukebox/]: [MCJukebox] Loading MCJukebox v2.6.8
+[15:44:38] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Enabling LuckPerms v5.4.21
+[15:44:39] [Server thread/INFO] [/]:         __    
+[15:44:39] [Server thread/INFO] [/]:   |    |__)   LuckPerms v5.4.21
+[15:44:39] [Server thread/INFO] [/]:   |___ |      Running on Bukkit - Mohist
+[15:44:39] [Server thread/INFO] [/]: 
+[15:44:39] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading configuration...
+[15:44:40] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading storage provider... [H2]
+[15:44:43] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading internal permission managers...
+[15:44:44] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Performing initial data load...
+[15:44:45] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Successfully enabled. (took 6650ms)
+[15:44:45] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Enabling CustomEnderChest v1.13.1
+[15:44:45] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Incompatible server version detected: 1.16.5 . Running into 1.16 API mode.
+[15:44:45] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Loading the config file...
+[15:44:45] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Config loaded successfully!
+[15:44:45] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Using FlatFile system for data. IMPORTANT! We recommend MySQL.
+[15:44:45] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] CustomEnderChest loaded successfully!
+[15:44:45] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabling Vault v1.7.3-b131
+[15:44:45] [Server thread/WARN] [net.milkbowl.vault.Vault/]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.0.0 which is not a depend, softdepend or loadbefore of this plugin.
+[15:44:45] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:44:45] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:44:45] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabled Version 1.7.3-b131
+[15:44:45] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Registered Vault permission & chat hook.
+[15:44:45] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[15:44:45] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:44:45] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager/]: WEPIF: Vault detected! Using Vault for permissions
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[15:44:47] [Server thread/DEBUG] [com.sk89q.worldedit.world.registry.BundledBlockData/]: Using jar:file:/C:/Users/User/Desktop/Pechenka%20Craft%20Test/spawn/plugins/worldedit-bukkit-7.2.10.jar!/com/sk89q/worldedit/world/registry/blocks.116.json for bundled block data.
+[15:44:47] [Server thread/DEBUG] [com.sk89q.worldedit.world.registry.BundledItemData/]: Using jar:file:/C:/Users/User/Desktop/Pechenka%20Craft%20Test/spawn/plugins/worldedit-bukkit-7.2.10.jar!/com/sk89q/worldedit/world/registry/items.116.json for bundled item data.
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  WorldEdit works better if you use Paper 
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  as your server software. 
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper offers significant performance improvements,
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  bug fixes, security enhancements and optional
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  features for server owners to enhance their server.
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  better at diagnosing lag problems over v1.
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  All of your plugins should still work, and the
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]   
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[15:44:47] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] ====================================================
+[15:44:47] [Server thread/INFO] [otd.Main/]: [Oh_the_dungeons_youll_go] Enabling Oh_the_dungeons_youll_go v14.2
+[15:44:47] [Server thread/INFO] [Minecraft/]: {"loots":["ENCHANTBOOK","JUNK","POTION","BREWING","ENCHANTBONUS","SUPPLY","ARMOUR","ORE","SMITHY","BLOCK","REWARD","FOOD","TOOL","SPECIAL","WEAPON","MUSIC"],"extra_ItemSpecialty":true,"extra_ItemEnchBook":true}
+[15:44:47] [Server thread/INFO] [Minecraft/]: configdir is plugins\Oh_the_dungeons_youll_go\forge_sandbox\doomlike
+[15:44:47] [Server thread/INFO] [Minecraft/]: themesdir is plugins\Oh_the_dungeons_youll_go\forge_sandbox\doomlike\themes
+[15:44:47] [Server thread/INFO] [/]: [OTD] Installing files plugins\Oh_the_dungeons_youll_go\forge_sandbox\doomlike\chests.cfg
+[15:44:47] [Server thread/INFO] [Minecraft/]: Loading chest loot file (chests.cfg)
+[15:44:47] [Server thread/INFO] [Minecraft/]: Found 1 special chest configs.
+[15:44:47] [Server thread/INFO] [Minecraft/]: Loading chest loot file (oceanic_chests.cfg)
+[15:44:47] [Server thread/INFO] [Minecraft/]: Found 12 themes.
+[15:44:48] [Server thread/ERROR] [Minecraft/]: java.lang.NullPointerException: Cannot invoke "java.util.List.add(Object)" because "this.this$0.pages" is null
+	at org.bukkit.craftbukkit.v1_16_R3.inventory.CraftMetaBook$SpigotMeta.addPage(CraftMetaBook.java:484)
+	at forge_sandbox.greymerk.roguelike.treasure.loot.BookBase.get(BookBase.java:50)
+	at forge_sandbox.greymerk.roguelike.treasure.loot.Book.get(Book.java:14)
+	at forge_sandbox.greymerk.roguelike.dungeon.settings.base.SettingsLootRules.<init>(SettingsLootRules.java:49)
+	at forge_sandbox.greymerk.roguelike.dungeon.settings.SettingsContainer.<init>(SettingsContainer.java:64)
+	at forge_sandbox.greymerk.roguelike.dungeon.Dungeon.initResolver(Dungeon.java:97)
+	at forge_sandbox.greymerk.roguelike.dungeon.Dungeon.<clinit>(Dungeon.java:73)
+	at otd.Main.onEnable(Main.java:163)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:499)
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:411)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212)
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774)
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[15:44:48] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] Update checking...
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/frosted/default.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/frosted/default_spike_1.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/frosted/entrance.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/frosted/hole.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/frosted/top.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/jungle/branch.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/jungle/default.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/jungle/entrance.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/jungle/lookout.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/jungle/stairs_wrap.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/jungle/top.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/mushroom/default.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/mushroom/entrance.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/mushroom/top.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/sandy/default.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/sandy/entrance.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/sandy/top.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/sandy/sandcastle_top.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/blacksmith.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/default.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/entrance.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/lake.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/library.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/lookout.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/mineshaft.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/original.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/plains.json
+[15:44:48] [Server thread/INFO] [Minecraft/]: Reading draylars-battle-towers/stone/top.json
+[15:44:48] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[15:44:48] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[15:44:48] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\world\serverconfig\forge-server.toml
+[15:44:48] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\world\serverconfig\forge-server.toml
+[15:44:48] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\world\serverconfig\forge-server.toml for changes
+[15:44:48] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[15:44:48] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[15:44:48] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[15:44:48] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[15:44:48] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[15:44:48] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[15:44:48] [Thread-0/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[15:44:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[15:44:48] [Server thread/DEBUG] [com.mohistmc.MohistMC/]: Registered forge DimensionType as environment MINECRAFT_OVERWORLD_CAVES
+[15:44:49] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] Found world: world
+[15:44:49] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] Found world: DIM-1
+[15:44:49] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] Found world: DIM1
+[15:44:49] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] Found world: altworld-3
+[15:44:49] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] Found world: altworld-2
+[15:44:49] [Server thread/INFO] [Minecraft/]: [Oh The Dungeons You'll Go] Found world: altworld-1
+[15:44:49] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[15:44:49] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Fetching available expansion information...
+[15:44:49] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Enabling NametagEdit v4.4.10
+[15:44:49] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/network/play/client/CClientSettingsPacket
+[15:44:49] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Found LuckPerms! Hooking in.
+[15:44:49] [Server thread/WARN] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Loaded class net.luckperms.api.LuckPermsProvider from LuckPerms v5.4.21 which is not a depend, softdepend or loadbefore of this plugin.
+[15:44:49] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Enabling HolographicDisplays v2.4.9
+[15:44:50] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Enabling MultiWorld v5.2.8
+[15:44:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:world3
+[15:44:50] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[15:44:53] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[15:44:53] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[15:44:53] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3 014 ms
+[15:44:53] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] v5.2.8 enabled.
+[15:44:53] [Server thread/INFO] [net.skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Enabling SkinsRestorer v14.1.15
+[15:44:54] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_16_R3[32;1m, using [33;1mSpigotSkinRefresher[32;1m.[0;39m
+[15:44:54] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------/Warning\-------------------------[0;39m
+[15:44:54] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mThis plugin is running in Bungee mode![0;39m
+[15:44:54] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mYou have to do all configuration at config file[0;39m
+[15:44:54] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39minside your Bungeecord server.[0;39m
+[15:44:54] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m(Bungeecord-Server/plugins/SkinsRestorer/).[0;39m
+[15:44:54] [Server thread/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m-------------------------\Warning/-------------------------[0;39m
+[15:44:54] [Server thread/INFO] [ru.akke.akit.AmazingKit/]: [AmazingKit] Enabling AmazingKit v1.1
+[15:44:54] [Server thread/INFO] [Minecraft/]: [AmazingKit] Enabled!
+[15:44:54] [Server thread/INFO] [com.TheAJ471.burn.Main/]: [Burn] Enabling Burn v1.0
+[15:44:54] [Server thread/INFO] [Minecraft/]: Burn Version 1.0 Has Been Enabled!
+[15:44:54] [Server thread/INFO] [com.xxmicloxx.NoteBlockAPI.NoteBlockAPI/]: [NoteBlockAPI] Enabling NoteBlockAPI v1.6.1-SNAPSHOT
+[15:44:54] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] Enabling ServerListPlus v3.4.8
+[15:44:54] [Server thread/ERROR] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] ProtocolLib IS NOT INSTALLED! Most features will NOT work!
+[15:44:54] [Server thread/DEBUG] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] 
+---
+Plugin: ServerListPlus v3.4.8 (Spigot)
+Server: 1.16.5-966 (MC: 1.16.5)
+Java: 16.0.1 (Java HotSpot(TM) 64-Bit Server VM)
+OS: Windows 10, 10.0 (amd64)
+---
+[15:44:54] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] Reloading configuration...
+[15:44:54] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[15:44:54] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[15:44:54] [Server thread/DEBUG] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] 2 configurations loaded.
+[15:44:54] [Server thread/DEBUG] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] Profile configuration not found, assuming the profile is disabled!
+[15:44:54] [Server thread/WARN] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] Configuration is not enabled, nothing will be changed on the server! Please execute /slp enable to enable the configuration.
+[15:44:54] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] [Core] Reloading saved player identities...
+[15:44:54] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] Successfully loaded!
+[15:44:54] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[15:44:54] [Server thread/INFO] [plus.crates.CratesPlus/]: [CratesPlus] Enabling CratesPlus v4.5.3
+[15:44:54] [Server thread/WARN] [plus.crates.CratesPlus/]: [CratesPlus] CratesPlus has not yet been officially tested with Bukkit 1.16.5 but should still work
+[15:44:54] [Server thread/WARN] [plus.crates.CratesPlus/]: [CratesPlus] Please let me know if there are any errors or issues
+[15:44:55] [Server thread/INFO] [/]: CratesPlus Version 4.5.3
+[15:44:55] [Server thread/INFO] [/]: HolographicDisplays was found, hooking in!
+[15:44:55] [Server thread/INFO] [me.gmusic.main.GMusicMain/]: [GMusic] Enabling GMusic v[2.6.1.0]
+[15:44:55] [Server thread/ERROR] [Minecraft/]: Cannot load plugins\GMusic\songs\Dualipa2223.gnbs
+org.bukkit.configuration.InvalidConfigurationException: unacceptable code point '' (0x3) special characters are not allowed
+in "'string'", position 3
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59) ~[forge:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[forge:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[forge:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:188) ~[forge:?]
+	at me.gmusic.objects.Song.<init>(Song.java:51) ~[?:?]
+	at me.gmusic.manager.MusicManager.lambda$2(MusicManager.java:70) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) ~[?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:746) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doInvoke(ForkJoinTask.java:413) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:741) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:765) ~[?:?]
+	at me.gmusic.manager.MusicManager.loadMusicSettings(MusicManager.java:65) ~[?:?]
+	at me.gmusic.main.GMusicMain.setupSettings(GMusicMain.java:115) ~[?:?]
+	at me.gmusic.main.GMusicMain.onEnable(GMusicMain.java:164) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:499) ~[forge:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:411) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.MinecraftServer.func_240787_a_(MinecraftServer.java:430) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240800_l__(MinecraftServer.java:349) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:220) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:211) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:176) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:171) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.reader.StreamReader.peek(StreamReader.java:126) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanToNextToken(ScannerImpl.java:1177) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:287) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:227) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseImplicitDocumentStart.produce(ParserImpl.java:195) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:148) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:118) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:150) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490) ~[snakeyaml-1.27.jar:?]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416) ~[snakeyaml-1.27.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[forge:?]
+	... 32 more
+[15:44:55] [Server thread/WARN] [/]: java.lang.NullPointerException
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:608)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:683)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:742)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:765)
+[15:44:55] [Server thread/WARN] [/]: 	at me.gmusic.manager.MusicManager.loadMusicSettings(MusicManager.java:65)
+[15:44:55] [Server thread/WARN] [/]: 	at me.gmusic.main.GMusicMain.setupSettings(GMusicMain.java:115)
+[15:44:55] [Server thread/WARN] [/]: 	at me.gmusic.main.GMusicMain.onEnable(GMusicMain.java:164)
+[15:44:55] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[15:44:55] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
+[15:44:55] [Server thread/WARN] [/]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479)
+[15:44:55] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:499)
+[15:44:55] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:411)
+[15:44:55] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240787_a_(MinecraftServer.java:430)
+[15:44:55] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240800_l__(MinecraftServer.java:349)
+[15:44:55] [Server thread/WARN] [/]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:220)
+[15:44:55] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774)
+[15:44:55] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[15:44:55] [Server thread/WARN] [/]: Caused by: java.lang.NullPointerException: Cannot invoke "String.toUpperCase()" because the return value of "org.bukkit.configuration.file.YamlConfiguration.getString(String)" is null
+[15:44:55] [Server thread/WARN] [/]: 	at me.gmusic.objects.Song.<init>(Song.java:65)
+[15:44:55] [Server thread/WARN] [/]: 	at me.gmusic.manager.MusicManager.lambda$2(MusicManager.java:70)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:746)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+[15:44:55] [Server thread/WARN] [/]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[15:44:55] [Server thread/INFO] [/]: [GMusic] Плагин был успешно включен.
+[15:44:55] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered expansion: gmusic [[2.6.1.0]]
+[15:44:55] [Server thread/INFO] [/]: [GMusic] Связанно с PlaceholderAPI успешно!
+[15:44:55] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials v2.18.0.0
+[15:44:55] [Server thread/ERROR] [com.earth2me.essentials.Essentials/]: [Essentials] You are running an unsupported server version!
+[15:44:55] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+[15:44:55] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+[15:44:56] [Server thread/INFO] [Essentials/]: Loaded 25515 items from items.json.
+[15:44:56] [Server thread/INFO] [Essentials/]: Using locale uk_UA
+[15:44:56] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:44:56] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:44:56] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy hooked.
+[15:44:56] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:44:56] [Server thread/INFO] [me.jet315.prisonmines.JetsPrisonMines/]: [JetsPrisonMines] Enabling JetsPrisonMines v4.1.1
+[15:44:56] [Server thread/INFO] [me.jet315.prisonmines.JetsPrisonMines/]: [JetsPrisonMines] Downloaded from https://directleaks.net
+[15:44:56] [Server thread/INFO] [/]: 
+[15:44:56] [Server thread/INFO] [/]: [JetsPrisonMines] Initializing Plugin
+[15:44:56] [Server thread/INFO] [me.jet315.prisonmines.JetsPrisonMines/]: [JetsPrisonMines] hooks.yml found, loading!
+[15:44:56] [Server thread/INFO] [me.jet315.prisonmines.JetsPrisonMines/]: [JetsPrisonMines] config.yml found, loading!
+[15:44:56] [Server thread/INFO] [me.jet315.prisonmines.JetsPrisonMines/]: [JetsPrisonMines] messages.yml found, loading!
+[15:44:57] [Server thread/INFO] [/]: 
+[15:44:57] [Server thread/INFO] [/]: [JetsPrisonMines] Mines will load over 3 seconds
+[15:44:57] [Server thread/INFO] [/]: [JetsPrisonMines] Initializing Complete in 776 Ms
+[15:44:57] [Server thread/INFO] [/]: 
+[15:44:57] [Server thread/INFO] [com.github.games647.scoreboardstats.ScoreboardStats/]: [ScoreboardStats] Enabling ScoreboardStats v0.10.6
+[15:44:57] [Server thread/WARN] [com.github.games647.scoreboardstats.ScoreboardStats/]: [ScoreboardStats] Cannot register replacer
+java.lang.NoClassDefFoundError: me/clip/placeholderapi/external/EZPlaceholderHook
+	at com.github.games647.scoreboardstats.variables.defaults.PlaceHolderVariables.getVariablesPrefixes(PlaceHolderVariables.java:28) ~[?:?]
+	at com.github.games647.scoreboardstats.variables.defaults.PlaceHolderVariables.<init>(PlaceHolderVariables.java:43) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:350) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:642) ~[?:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.createInstance(ReplaceManager.java:375) ~[?:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.registerDefault(ReplaceManager.java:303) ~[?:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.addDefaultReplacers(ReplaceManager.java:359) ~[?:?]
+	at com.github.games647.scoreboardstats.variables.ReplaceManager.<init>(ReplaceManager.java:86) ~[?:?]
+	at com.github.games647.scoreboardstats.SbManager.<init>(SbManager.java:27) ~[?:?]
+	at com.github.games647.scoreboardstats.scoreboard.bukkit.BukkitScoreboardManager.<init>(BukkitScoreboardManager.java:37) ~[?:?]
+	at com.github.games647.scoreboardstats.ScoreboardStats.onEnable(ScoreboardStats.java:100) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:499) ~[forge:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:411) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.MinecraftServer.func_240787_a_(MinecraftServer.java:430) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240800_l__(MinecraftServer.java:349) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:220) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.ClassNotFoundException: me.clip.placeholderapi.external.EZPlaceholderHook
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:152) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:111) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	... 27 more
+[15:44:57] [Server thread/INFO] [com.github.games647.scoreboardstats.ScoreboardStats/]: [ScoreboardStats] Registered replacers: [PlayerPingVariable, BukkitGlobalVariables, BungeeCordVariables, GeneralVariables, VaultVariables, BukkitVariables]
+[15:44:57] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource/]: HikariPool-1 - Starting...
+[15:44:57] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource/]: HikariPool-1 - Start completed.
+[15:44:57] [Server thread/INFO] [com.janboerman.invsee.spigot.InvseePlusPlus/]: [InvSee++] Enabling InvSeePlusPlus v0.11.8-SNAPSHOT
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'world'
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) Lava fire is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM-1'
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Lighters are PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Lava fire is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'DIM1'
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-3) TNT ignition is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-3) Lighters are PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-3) Lava fire is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-3) Fire spread is UNRESTRICTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'altworld-3'
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-2) TNT ignition is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-2) Lighters are PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-2) Lava fire is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-2) Fire spread is UNRESTRICTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'altworld-2'
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-1) TNT ignition is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-1) Lighters are PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-1) Lava fire is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (altworld-1) Fire spread is UNRESTRICTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'altworld-1'
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world3) TNT ignition is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world3) Lighters are PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world3) Lava fire is PERMITTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] (world3) Fire spread is UNRESTRICTED.
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration/]: [WorldGuard] Loaded configuration for world 'world3'
+[15:44:57] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard/]: [WorldGuard] Loading region data...
+[15:44:57] [Server thread/INFO] [net.citizensnpcs.Citizens/]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2534)
+[15:44:58] [Server thread/ERROR] [Minecraft/]: [Citizens] Missing translation for system language (uk_UA): defaulting to English
+[15:44:58] [Server thread/INFO] [me.deejayarroba.craftheads.Main/]: [CraftHeads] Enabling CraftHeads v4.4.1
+[15:44:58] [Server thread/INFO] [theBartender.Main/]: [theBartender] Enabling theBartender v1.2
+[15:44:58] [Server thread/INFO] [/]: [theBartender] 12 drinks founded.
+[15:44:58] [Server thread/INFO] [/]: [theBartender] plugin has been enabled.
+[15:44:58] [Server thread/INFO] [me.filoghost.chestcommands.ChestCommands/]: [ChestCommands] Enabling ChestCommands v4.0.3
+[15:44:58] [Server thread/INFO] [me.filoghost.chestcommands.ChestCommands/]: [ChestCommands] Hooked Vault
+[15:44:58] [Server thread/INFO] [me.filoghost.chestcommands.ChestCommands/]: [ChestCommands] Hooked PlaceholderAPI
+[15:44:59] [Server thread/INFO] [me.badbones69.crazyauctions.Main/]: [CrazyAuctions] Enabling CrazyAuctions v1.2.16-RELEASE
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Loading the config.yml
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Successfully loaded config.yml
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Loading the Data.yml
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Successfully loaded Data.yml
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Loading the Messages.yml
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Successfully loaded Messages.yml
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Loading the Test-File.yml
+[15:44:59] [Server thread/INFO] [/]: [CrazyAuctions] Successfully loaded Test-File.yml
+[15:44:59] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Enabling EssentialsChat v2.18.0.0
+[15:44:59] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[15:44:59] [Server thread/INFO] [dev.geco.gsit.GSitMain/]: [GSit] Enabling GSit v1.0.7
+[15:44:59] [Server thread/INFO] [/]: [GSit] The Plugin was successfully enabled.
+[15:44:59] [Server thread/INFO] [/]: [GSit] Link with WorldGuard successful!
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Enabling ChatEx v2.8.1
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Successfully hooked into: LuckPerms
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Hooked into PlaceholderAPI
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Server version:1.16.5-966 (MC: 1.16.5)
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] No ColorCodes Specified!
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Thanks for using bstats, it was enabled!
+[15:44:59] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] is now enabled!
+[15:44:59] [Server thread/INFO] [me.SuperRonanCraft.BetterRTP.BetterRTP/]: [BetterRTP] Enabling BetterRTP v3.4.2-2
+[15:44:59] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] Enabling ProtectionStones v2.8.5
+[15:44:59] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard/]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[15:44:59] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard/]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[15:44:59] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] PlaceholderAPI support enabled!
+[15:44:59] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered expansion: protectionstones [2.8.5]
+[15:44:59] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] LuckPerms support enabled!
+[15:44:59] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] Protection Stone Blocks:
+[15:44:59] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] - EMERALD_ORE (64)
+[15:45:00] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] Building region cache...
+[15:45:00] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[15:45:00] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[15:45:00] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] ProtectionStones has successfully started!
+[15:45:00] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.0.0
+[15:45:00] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[15:45:00] [Server thread/INFO] [io.puharesource.mc.titlemanager.TitleManagerPlugin/]: [TitleManager] Enabling TitleManager v2.3.6
+[15:45:01] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling TitleManager v2.3.6 (Is it up to date?)
+java.lang.NullPointerException: null
+	at io.puharesource.mc.titlemanager.internal.config.TMConfigAnnouncer.<init>(TMConfig.kt:114) ~[?:?]
+	at io.puharesource.mc.titlemanager.internal.config.TMConfigMain$announcer$2.invoke(TMConfig.kt:49) ~[?:?]
+	at io.puharesource.mc.titlemanager.internal.config.TMConfigMain$announcer$2.invoke(TMConfig.kt:49) ~[?:?]
+	at io.puharesource.mc.titlemanager.shaded.kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74) ~[?:?]
+	at io.puharesource.mc.titlemanager.internal.config.TMConfigMain.getAnnouncer(TMConfig.kt:49) ~[?:?]
+	at io.puharesource.mc.titlemanager.internal.services.TitleManagerServiceSpigot.start(TitleManagerServiceSpigot.kt:65) ~[?:?]
+	at io.puharesource.mc.titlemanager.TitleManagerPlugin.onEnable(TitleManagerPlugin.kt:36) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:479) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:499) ~[forge:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:411) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.MinecraftServer.func_240787_a_(MinecraftServer.java:430) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240800_l__(MinecraftServer.java:349) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:220) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:774) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:269) ~[?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[15:45:01] [Server thread/INFO] [io.puharesource.mc.titlemanager.TitleManagerPlugin/]: [TitleManager] Disabling TitleManager v2.3.6
+[15:45:01] [Server thread/INFO] [net.mcjukebox.plugin.bukkit.MCJukebox/]: [MCJukebox] Enabling MCJukebox v2.6.8
+[15:45:01] [Server thread/INFO] [net.mcjukebox.plugin.bukkit.MCJukebox/]: [MCJukebox] MCJukebox has been loaded!
+[15:45:01] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[15:45:01] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:45:01] [Server thread/INFO] [/]: 0 placeholder hook(s) registered!
+[15:45:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15:45:02] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[15:45:03] [EventThread/INFO] [net.mcjukebox.plugin.bukkit.MCJukebox/]: [MCJukebox] Key accepted and connection to MCJukebox established.
+[15:45:03] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1 644 ms
+[15:45:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.576s)! For help, type "help"
+[15:45:03] [Server thread/WARN] [net.minecraftforge.server.permission.PermissionAPI/]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with com.mohistmc.forge.BukkitPermissionsHandler
+[15:45:03] [Server thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 168
+[15:45:03] [Server thread/INFO] [Minecraft/]: Timings Reset
+[15:45:03] [Craft Scheduler Thread - 9/WARN] [ru.akke.akit.AmazingKit/]: [AmazingKit] Plugin AmazingKit v1.1 generated an exception while executing task 25
+java.lang.NoSuchMethodError: 'org.bukkit.entity.Player[] org.bukkit.Server.getOnlinePlayers()'
+	at org.mcstats.Metrics.postPlugin(Metrics.java:357) ~[?:?]
+	at org.mcstats.Metrics.access$400(Metrics.java:64) ~[?:?]
+	at org.mcstats.Metrics$1.run(Metrics.java:245) ~[?:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:98) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [forge:?]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20) [forge:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[15:45:03] [Craft Scheduler Thread - 17/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Checking for update...
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "-": syntax error)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.sqlite.core.DB.throwex(DB.java:989)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.sqlite.core.NativeDB._exec_utf8(Native Method)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.sqlite.core.NativeDB._exec(NativeDB.java:94)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.sqlite.jdbc3.JDBC3Statement.executeUpdate(JDBC3Statement.java:102)
+[15:45:03] [Craft Scheduler Thread - 5/INFO] [net.milkbowl.vault.Vault/]: [Vault] Checking for Updates ... 
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at me.SuperRonanCraft.BetterRTP.references.database.SQLite.lambda$load$0(SQLite.java:94)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:98)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:20)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[15:45:03] [Craft Scheduler Thread - 33/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[15:45:03] [Craft Scheduler Thread - 5/INFO] [net.milkbowl.vault.Vault/]: [Vault] No new version available
+[15:45:03] [EventThread/INFO] [net.mcjukebox.plugin.bukkit.MCJukebox/]: [MCJukebox] Predicted time offset: 3991ms.
+[15:45:03] [EventThread/INFO] [net.mcjukebox.plugin.bukkit.MCJukebox/]: [MCJukebox] This will be silently updated every 30 seconds.
+[15:45:03] [Craft Scheduler Thread - 17/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Version installed is 2.8.1
+[15:45:03] [Craft Scheduler Thread - 17/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Latest version found online is 2.8.1
+[15:45:03] [Craft Scheduler Thread - 17/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] No update found.
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   [33;1mBungee Mode[32;1m    |[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.1.15[0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[15:45:04] [Craft Scheduler Thread - 8/INFO] [/]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[15:45:08] [Server thread/INFO] [Minecraft/]: [Citizens] Loaded 3 NPCs.
+[15:45:08] [Server thread/INFO] [Minecraft/]: [OTD] Looks like you use /reload to load this plugin.,.. You need to restart your server, otherwise it won't work
+[15:45:08] [Server thread/INFO] [Minecraft/]:    ___   _            _______ _                  .___                                           
+[15:45:08] [Server thread/INFO] [Minecraft/]:  .'   `. /           '   /    /        ___       /   `  ,   . , __     ___.   ___    __.  , __  
+[15:45:08] [Server thread/INFO] [Minecraft/]:  |     | |,---.          |    |,---. .'   `      |    | |   | |'  `. .'   ` .'   ` .'   \ |'  `.
+[15:45:08] [Server thread/INFO] [Minecraft/]:  |     | |'   `          |    |'   ` |----'      |    | |   | |    | |    | |----' |    | |    |
+[15:45:08] [Server thread/INFO] [Minecraft/]:   `.__.' /    |          /    /    | `.___,      /---/  `._/| /    |  `---| `.___,  `._.' /    |
+[15:45:08] [Server thread/INFO] [Minecraft/]:                                                                       \___/                     
+[15:45:08] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] [DEBUG] Applied tags to all online players.
+[15:45:08] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Found a new version available: v3.0.0
+[15:45:08] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Download it on Bukkit Dev:
+[15:45:08] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[15:45:08] [Server thread/INFO] [otd.Main/]: [Oh_the_dungeons_youll_go] ====================================================
+[15:45:08] [Server thread/INFO] [otd.Main/]: [Oh_the_dungeons_youll_go]  Oh_the_dungeons_youll_go works better if you use Paper 
+[15:45:08] [Server thread/INFO] [otd.Main/]: [Oh_the_dungeons_youll_go]  as your server software. 
+[15:45:08] [Server thread/INFO] [otd.Main/]: [Oh_the_dungeons_youll_go] ====================================================
+[15:45:08] [Craft Scheduler Thread - 8/INFO] [/]: Checking for updates via Spigot...
+[15:45:08] [Craft Scheduler Thread - 8/INFO] [/]: [CratesPlus] No update was found, you are running the latest version. Will check again later.
+[15:45:08] [Server thread/INFO] [/]: 
+[15:45:08] [Server thread/INFO] [/]: [JetsPrisonMines] Mines have been loaded
+[15:45:13] [Craft Scheduler Thread - 17/INFO] [Minecraft/]: [NoteBlockAPI] New update available!
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Vanilla acceptance test: ACCEPTED
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Vanilla acceptance test: ACCEPTED
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split_11' : Vanilla acceptance test: ACCEPTED
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Vanilla acceptance test: ACCEPTED
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Vanilla acceptance test: ACCEPTED
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Vanilla acceptance test: ACCEPTED
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:split' : Vanilla acceptance test: ACCEPTED
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from vanilla
+[15:45:32] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new vanilla network connection.
+[15:45:32] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player vaniaprofik is f5106096-2622-34fa-a7a9-74e60bd55774
+[15:45:32] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[15:45:32] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@84ec30b
+[15:45:32] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: vaniaprofik[/26.51.225.64:65303] logged in with entity id 267 at (54,721, 79,632, -69,415)
+[15:45:32] [Server thread/DEBUG] [net.minecraftforge.network.NetworkFilters/]: Injected net.minecraftforge.network.VanillaConnectionNetworkFilter@3281cc8c into net.minecraft.network.NetworkManager@31195893
+[15:45:32] [Server thread/DEBUG] [net.minecraftforge.network.NetworkFilters/]: Injected net.minecraftforge.network.ForgeConnectionNetworkFilter@56de2a9c into net.minecraft.network.NetworkManager@31195893
+[15:45:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /plugin load negativity-1_11_1
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] Enabling Negativity v1.11.1
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] Detected server version: v1_16 (v1_16_R3)
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] ------ Negativity Information ------
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] 
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity]  > Thanks for downloading Negativity :)
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] I'm trying to make the best anti-cheat as possible.
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] If you get error/false positive, or just have suggestion, you can contact me via:
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] Discord: @Elikill58#0743, @Elikill58 on twitter or in all other web site like Spigotmc ...
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] 
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] ------ Negativity Information ------
+[15:45:46] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] This plugin is free, but you can buy the premium version : https://www.spigotmc.org/resources/86874 <3
+[15:45:47] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] Loaded support for Essentials, WorldGuard.
+[15:45:47] [Craft Scheduler Thread - 6/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] New version available (1.11.2). Download it here: https://www.spigotmc.org/resources/48399/
+[15:45:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /news
+[15:46:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /news
+[15:46:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /news 2
+[15:46:31] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /report
+[15:46:49] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /nreport vaniaprofik Наглий адмін
+[15:46:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /report
+[15:46:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /reports
+[15:47:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /nreports
+[15:47:21] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /negativity
+[15:47:44] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /negativity verif vaniaprofik
+[15:48:23] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[15:49:02] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /mod
+[15:49:41] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /rtp
+[15:49:41] [Server thread/INFO] [me.SuperRonanCraft.BetterRTP.BetterRTP/]: [BetterRTP] This is not an error! UseLocationIfAvailable is set to `true`, but no location was found for vaniaprofik! Using world defaults! (Maybe they dont have permission?)
+[15:49:45] [Server thread/WARN] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Loaded class me.clip.placeholderapi.PlaceholderAPIPlugin from PlaceholderAPI v2.11.1 which is not a depend, softdepend or loadbefore of this plugin.
+[15:49:47] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /rtp
+[15:49:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /spawn
+[15:50:09] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[15:50:09] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[15:50:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /mod
+[15:51:09] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /kick vaniaprofik
+[15:51:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik issued server command: /kick vaniaprofik vaniaprofik
+[15:51:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: vaniaprofik lost connection: You have been kicked by vaniaprofik for vaniaprofik
+[15:51:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: vaniaprofik left the game
+[15:51:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15:51:53] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity/]: [Negativity] Disabling Negativity v1.11.1
+[15:51:53] [Server thread/INFO] [net.mcjukebox.plugin.bukkit.MCJukebox/]: [MCJukebox] Disabling MCJukebox v2.6.8
+[15:51:53] [Server thread/INFO] [com.earth2me.essentials.spawn.EssentialsSpawn/]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.0.0
+[15:51:53] [Server thread/INFO] [dev.espi.protectionstones.ProtectionStones/]: [ProtectionStones] Disabling ProtectionStones v2.8.5
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: Exception in thread "OkHttp Dispatcher" java.lang.NoClassDefFoundError: net/mcjukebox/plugin/bukkit/libs/socket/engineio/client/transports/WebSocket$1$4
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at net.mcjukebox.plugin.bukkit.libs.socket.engineio.client.transports.WebSocket$1.onClosed(WebSocket.java:91)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at net.mcjukebox.plugin.bukkit.libs.okhttp3.internal.ws.RealWebSocket.onReadClose(RealWebSocket.kt:381)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at net.mcjukebox.plugin.bukkit.libs.okhttp3.internal.ws.WebSocketReader.readControlFrame(WebSocketReader.kt:220)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at net.mcjukebox.plugin.bukkit.libs.okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.kt:104)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at net.mcjukebox.plugin.bukkit.libs.okhttp3.internal.ws.RealWebSocket.loopReader(RealWebSocket.kt:293)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at net.mcjukebox.plugin.bukkit.libs.okhttp3.internal.ws.RealWebSocket$connect$1.onResponse(RealWebSocket.kt:195)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at net.mcjukebox.plugin.bukkit.libs.okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:504)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: Caused by: java.lang.ClassNotFoundException: net.mcjukebox.plugin.bukkit.libs.socket.engineio.client.transports.WebSocket$1$4
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:152)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:111)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+[15:51:53] [OkHttp Dispatcher/WARN] [/]: 	... 10 more
+[15:51:53] [Server thread/INFO] [me.SuperRonanCraft.BetterRTP.BetterRTP/]: [BetterRTP] Disabling BetterRTP v3.4.2-2
+[15:51:53] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] Disabling ChatEx v2.8.1
+[15:51:53] [Server thread/INFO] [de.jeter.chatex.ChatEx/]: [ChatEx] is now disabled!
+[15:51:53] [Server thread/INFO] [dev.geco.gsit.GSitMain/]: [GSit] Disabling GSit v1.0.7
+[15:51:53] [Server thread/INFO] [/]: [GSit] The Plugin was successfully disabled.
+[15:51:53] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Disabling EssentialsChat v2.18.0.0
+[15:51:53] [Server thread/INFO] [me.badbones69.crazyauctions.Main/]: [CrazyAuctions] Disabling CrazyAuctions v1.2.16-RELEASE
+[15:51:53] [Server thread/INFO] [me.filoghost.chestcommands.ChestCommands/]: [ChestCommands] Disabling ChestCommands v4.0.3
+[15:51:53] [Server thread/INFO] [theBartender.Main/]: [theBartender] Disabling theBartender v1.2
+[15:51:53] [Server thread/INFO] [/]: [theBartender] plugin has been disabled.
+[15:51:53] [Server thread/INFO] [me.deejayarroba.craftheads.Main/]: [CraftHeads] Disabling CraftHeads v4.4.1
+[15:51:53] [Server thread/INFO] [net.citizensnpcs.Citizens/]: [Citizens] Disabling Citizens v2.0.29-SNAPSHOT (build 2534)
+[15:51:53] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin/]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[15:51:53] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard/]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:51:54] [Server thread/INFO] [otd.Main/]: [Oh_the_dungeons_youll_go] Disabling Oh_the_dungeons_youll_go v14.2
+[15:51:54] [Server thread/WARN] [Minecraft/]: [Oh The Dungeons You'll Go] Plugin is disabled
+[15:51:54] [Server thread/INFO] [com.janboerman.invsee.spigot.InvseePlusPlus/]: [InvSee++] Disabling InvSeePlusPlus v0.11.8-SNAPSHOT
+[15:51:54] [Server thread/INFO] [com.github.games647.scoreboardstats.ScoreboardStats/]: [ScoreboardStats] Disabling ScoreboardStats v0.10.6
+[15:51:54] [Server thread/INFO] [com.github.games647.scoreboardstats.ScoreboardStats/]: [ScoreboardStats] Now saving the stats to the database. This could take a while.
+[15:51:54] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource/]: HikariPool-1 - Shutdown initiated...
+[15:51:54] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource/]: HikariPool-1 - Shutdown completed.
+[15:51:54] [Server thread/INFO] [me.jet315.prisonmines.JetsPrisonMines/]: [JetsPrisonMines] Disabling JetsPrisonMines v4.1.1
+[15:51:54] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Disabling Essentials v2.18.0.0
+[15:51:54] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy unhooked.
+[15:51:54] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin/]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[15:51:54] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:51:54] [Server thread/INFO] [me.gmusic.main.GMusicMain/]: [GMusic] Disabling GMusic v[2.6.1.0]
+[15:51:54] [Server thread/INFO] [/]: [GMusic] Плагин был успешно отключен.
+[15:51:54] [Server thread/INFO] [plus.crates.CratesPlus/]: [CratesPlus] Disabling CratesPlus v4.5.3
+[15:51:54] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Disabling Vault v1.7.3-b131
+[15:51:55] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] Disabling ServerListPlus v3.4.8
+[15:51:55] [Server thread/INFO] [net.minecrell.serverlistplus.bukkit.BukkitPlugin/]: [ServerListPlus] ServerListPlus v3.4.8 disabled.
+[15:51:55] [Server thread/INFO] [com.xxmicloxx.NoteBlockAPI.NoteBlockAPI/]: [NoteBlockAPI] Disabling NoteBlockAPI v1.6.1-SNAPSHOT
+[15:51:55] [Server thread/INFO] [com.TheAJ471.burn.Main/]: [Burn] Disabling Burn v1.0
+[15:51:55] [Server thread/INFO] [Minecraft/]: Burn Has Been Disabled!
+[15:51:55] [Server thread/INFO] [ru.akke.akit.AmazingKit/]: [AmazingKit] Disabling AmazingKit v1.1
+[15:51:55] [Server thread/INFO] [Minecraft/]: [AmazingKit] Disabled!
+[15:51:55] [Server thread/INFO] [net.skinsrestorer.bukkit.SkinsRestorer/]: [SkinsRestorer] Disabling SkinsRestorer v14.1.15
+[15:51:55] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Disabling MultiWorld v5.2.8
+[15:51:55] [Server thread/INFO] [multiworld.MultiWorldPlugin/]: [MultiWorld] Disabled.
+[15:51:55] [Server thread/INFO] [com.gmail.filoghost.holographicdisplays.HolographicDisplays/]: [HolographicDisplays] Disabling HolographicDisplays v2.4.9
+[15:51:55] [Server thread/INFO] [com.nametagedit.plugin.NametagEdit/]: [NametagEdit] Disabling NametagEdit v4.4.10
+[15:51:55] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
+[15:51:55] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Disabling CustomEnderChest v1.13.1
+[15:51:55] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] Cleaning internal data...
+[15:51:55] [Server thread/INFO] [net.craftersland.customenderchest.EnderChest/]: [CustomEnderChest] CustomEnderChest is disabled!
+[15:51:55] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Disabling LuckPerms v5.4.21
+[15:51:55] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Starting shutdown process...
+[15:51:55] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Closing storage...
+[15:51:55] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Goodbye!
+[15:51:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15:51:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15:51:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:51:56] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:51:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM-1]'/minecraft:the_nether
+[15:51:56] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:51:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[DIM1]'/minecraft:the_end
+[15:51:56] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:51:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[altworld-3]'/multiworld:altworld-3
+[15:51:56] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (altworld-3): All chunks are saved
+[15:51:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[altworld-2]'/multiworld:altworld-2
+[15:51:56] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (altworld-2): All chunks are saved
+[15:51:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[altworld-1]'/multiworld:altworld-1
+[15:51:56] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (altworld-1): All chunks are saved
+[15:51:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world3]'/minecraft:world3
+[15:51:56] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world3): All chunks are saved
+[15:51:56] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[15:51:56] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[15:51:56] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\world\serverconfig
+[15:51:56] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
